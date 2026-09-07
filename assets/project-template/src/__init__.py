@@ -1,0 +1,1 @@
+"""Competition model implementation package."""

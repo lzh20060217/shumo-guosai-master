@@ -1,0 +1,2 @@
+search_id,request_id,round_id,search_date,database,query_language,query,query_type,inclusion_rule,exclusion_rule,result_count,screened_count,included_ids,negative_result,stop_reason
+SEARCH-TBD,REQ-TBD,R0,待填写,待填写,ZH,待填写,NEUTRAL,待填写,待填写,0,0,,YES,待填写

@@ -1,0 +1,536 @@
+{
+    "generated_at":  "2026-08-13T17:02:26.8990751+08:00",
+    "mode":  "Release",
+    "project":  "math-modeling-competition-template",
+    "plan_status":  "DRAFT",
+    "preprocessing_status":  "DRAFT",
+    "fail_count":  34,
+    "warning_count":  0,
+    "checks":  [
+                   {
+                       "name":  "required:AGENTS.md",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:START-HERE.md",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:WORKFLOW-GUIDE.md",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:PROJECT_STATUS.md",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:HANDOFF.md",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:.codex\\config.toml",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:.codex\\agents",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:.agents\\skills\\math-modeling-competition\\SKILL.md",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:.agents\\skills\\math-modeling-competition\\scripts\\verify-project.ps1",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:.agents\\skills\\math-modeling-competition\\scripts\\package-project.ps1",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:problem",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:data\\raw",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:research",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:research\\algorithm-briefs",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:research\\library\\papers",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:research\\library\\books",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:research\\library\\library-index.csv",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:research\\library\\download-log.csv",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:model",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:src",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:tests",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:experiments",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:outputs",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:outputs\\tables\\raw",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:outputs\\tables\\final",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:outputs\\figures\\drafts",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:outputs\\figures\\final",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:reports",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:writing",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "stage-file:competition\\competition-profile.md",
+                       "status":  "PASS",
+                       "detail":  "Stage deliverable must exist"
+                   },
+                   {
+                       "name":  "stage-file:problem\\task-requirements.csv",
+                       "status":  "PASS",
+                       "detail":  "Stage deliverable must exist"
+                   },
+                   {
+                       "name":  "stage-file:data\\data-inventory.csv",
+                       "status":  "PASS",
+                       "detail":  "Stage deliverable must exist"
+                   },
+                   {
+                       "name":  "stage-file:data\\raw-hashes.csv",
+                       "status":  "PASS",
+                       "detail":  "Stage deliverable must exist"
+                   },
+                   {
+                       "name":  "stage-file:data\\preprocessing-plan.md",
+                       "status":  "PASS",
+                       "detail":  "Stage deliverable must exist"
+                   },
+                   {
+                       "name":  "stage-file:data\\PREPROCESSING_STATUS.txt",
+                       "status":  "PASS",
+                       "detail":  "Stage deliverable must exist"
+                   },
+                   {
+                       "name":  "stage-file:research\\evidence-matrix.csv",
+                       "status":  "PASS",
+                       "detail":  "Stage deliverable must exist"
+                   },
+                   {
+                       "name":  "stage-file:research\\literature-review.md",
+                       "status":  "PASS",
+                       "detail":  "Stage deliverable must exist"
+                   },
+                   {
+                       "name":  "stage-file:research\\citation-brief.md",
+                       "status":  "PASS",
+                       "detail":  "Stage deliverable must exist"
+                   },
+                   {
+                       "name":  "stage-file:model\\algorithm-evidence-request.csv",
+                       "status":  "PASS",
+                       "detail":  "Stage deliverable must exist"
+                   },
+                   {
+                       "name":  "stage-file:research\\algorithm-evidence-coverage.csv",
+                       "status":  "PASS",
+                       "detail":  "Stage deliverable must exist"
+                   },
+                   {
+                       "name":  "stage-file:research\\search-log.csv",
+                       "status":  "PASS",
+                       "detail":  "Stage deliverable must exist"
+                   },
+                   {
+                       "name":  "stage-file:research\\library\\books\\book-index.csv",
+                       "status":  "PASS",
+                       "detail":  "Stage deliverable must exist"
+                   },
+                   {
+                       "name":  "stage-file:model\\model-plan.md",
+                       "status":  "PASS",
+                       "detail":  "Stage deliverable must exist"
+                   },
+                   {
+                       "name":  "stage-file:model\\PLAN_STATUS.txt",
+                       "status":  "PASS",
+                       "detail":  "Stage deliverable must exist"
+                   },
+                   {
+                       "name":  "stage-file:model\\protected-invariants.md",
+                       "status":  "PASS",
+                       "detail":  "Stage deliverable must exist"
+                   },
+                   {
+                       "name":  "stage-file:model\\implementation-defaults.md",
+                       "status":  "PASS",
+                       "detail":  "Stage deliverable must exist"
+                   },
+                   {
+                       "name":  "stage-file:model\\implementation-readiness.md",
+                       "status":  "PASS",
+                       "detail":  "Stage deliverable must exist"
+                   },
+                   {
+                       "name":  "stage-file:model\\readiness\\implementer-review.md",
+                       "status":  "PASS",
+                       "detail":  "Stage deliverable must exist"
+                   },
+                   {
+                       "name":  "stage-file:model\\readiness\\verifier-review.md",
+                       "status":  "PASS",
+                       "detail":  "Stage deliverable must exist"
+                   },
+                   {
+                       "name":  "stage-file:model\\g2-approval.json",
+                       "status":  "PASS",
+                       "detail":  "Stage deliverable must exist"
+                   },
+                   {
+                       "name":  "stage-file:model\\decision-register.csv",
+                       "status":  "PASS",
+                       "detail":  "Stage deliverable must exist"
+                   },
+                   {
+                       "name":  "stage-file:model\\complexity-budget.csv",
+                       "status":  "PASS",
+                       "detail":  "Stage deliverable must exist"
+                   },
+                   {
+                       "name":  "stage-file:outputs\\result-summary.json",
+                       "status":  "PASS",
+                       "detail":  "Stage deliverable must exist"
+                   },
+                   {
+                       "name":  "stage-file:outputs\\artifact-manifest.csv",
+                       "status":  "PASS",
+                       "detail":  "Stage deliverable must exist"
+                   },
+                   {
+                       "name":  "stage-file:reports\\verification-report.md",
+                       "status":  "PASS",
+                       "detail":  "Stage deliverable must exist"
+                   },
+                   {
+                       "name":  "stage-file:reports\\claim-audit.csv",
+                       "status":  "PASS",
+                       "detail":  "Stage deliverable must exist"
+                   },
+                   {
+                       "name":  "stage-file:writing\\paper-outline.md",
+                       "status":  "PASS",
+                       "detail":  "Stage deliverable must exist"
+                   },
+                   {
+                       "name":  "stage-file:writing\\claim-evidence-matrix.csv",
+                       "status":  "PASS",
+                       "detail":  "Stage deliverable must exist"
+                   },
+                   {
+                       "name":  "agent-allowlist",
+                       "status":  "PASS",
+                       "detail":  "Expected exactly: literature-researcher.toml, model-architect.toml, model-implementer.toml, model-verifier.toml, paper-outline-writer.toml, release-packager.toml"
+                   },
+                   {
+                       "name":  "agent:literature_researcher",
+                       "status":  "PASS",
+                       "detail":  "Exact internal name and a nonempty contract are required"
+                   },
+                   {
+                       "name":  "agent:model_architect",
+                       "status":  "PASS",
+                       "detail":  "Exact internal name and a nonempty contract are required"
+                   },
+                   {
+                       "name":  "agent:model_implementer",
+                       "status":  "PASS",
+                       "detail":  "Exact internal name and a nonempty contract are required"
+                   },
+                   {
+                       "name":  "agent:model_verifier",
+                       "status":  "PASS",
+                       "detail":  "Exact internal name and a nonempty contract are required"
+                   },
+                   {
+                       "name":  "agent:paper_outline_writer",
+                       "status":  "PASS",
+                       "detail":  "Exact internal name and a nonempty contract are required"
+                   },
+                   {
+                       "name":  "agent:release_packager",
+                       "status":  "PASS",
+                       "detail":  "Exact internal name and a nonempty contract are required"
+                   },
+                   {
+                       "name":  "frozen-plan-content",
+                       "status":  "FAIL",
+                       "detail":  "Both plans require non-v0 versions, internal FROZEN status, explicit approval and no placeholders"
+                   },
+                   {
+                       "name":  "competition-profile-content",
+                       "status":  "FAIL",
+                       "detail":  "Contest profile must be completed and cite a current official URL or rules PDF"
+                   },
+                   {
+                       "name":  "paper-outline-content",
+                       "status":  "FAIL",
+                       "detail":  "Paper outline must have all stable anchors and no placeholders"
+                   },
+                   {
+                       "name":  "handoff-content",
+                       "status":  "FAIL",
+                       "detail":  "Handoff must be current, non-placeholder and not describe a draft model"
+                   },
+                   {
+                       "name":  "plan-status",
+                       "status":  "FAIL",
+                       "detail":  "Release requires model and preprocessing FROZEN; current statuses are DRAFT / DRAFT"
+                   },
+                   {
+                       "name":  "content:problem\\task-requirements.csv",
+                       "status":  "FAIL",
+                       "detail":  "Rows=1; required fields must be non-placeholder"
+                   },
+                   {
+                       "name":  "content:data\\data-inventory.csv",
+                       "status":  "FAIL",
+                       "detail":  "Rows=1; required fields must be non-placeholder"
+                   },
+                   {
+                       "name":  "content:research\\evidence-matrix.csv",
+                       "status":  "FAIL",
+                       "detail":  "Rows=0; required fields must be non-placeholder"
+                   },
+                   {
+                       "name":  "content:model\\algorithm-evidence-request.csv",
+                       "status":  "FAIL",
+                       "detail":  "Rows=1; required fields must be non-placeholder"
+                   },
+                   {
+                       "name":  "content:research\\algorithm-evidence-coverage.csv",
+                       "status":  "FAIL",
+                       "detail":  "Rows=1; required fields must be non-placeholder"
+                   },
+                   {
+                       "name":  "content:research\\search-log.csv",
+                       "status":  "FAIL",
+                       "detail":  "Rows=1; required fields must be non-placeholder"
+                   },
+                   {
+                       "name":  "content:research\\library\\books\\book-index.csv",
+                       "status":  "FAIL",
+                       "detail":  "Rows=1; required fields must be non-placeholder"
+                   },
+                   {
+                       "name":  "content:outputs\\artifact-manifest.csv",
+                       "status":  "FAIL",
+                       "detail":  "Rows=1; required fields must be non-placeholder"
+                   },
+                   {
+                       "name":  "content:reports\\claim-audit.csv",
+                       "status":  "FAIL",
+                       "detail":  "Rows=1; required fields must be non-placeholder"
+                   },
+                   {
+                       "name":  "content:writing\\claim-evidence-matrix.csv",
+                       "status":  "FAIL",
+                       "detail":  "Rows=1; required fields must be non-placeholder"
+                   },
+                   {
+                       "name":  "result-summary",
+                       "status":  "FAIL",
+                       "detail":  "Release requires a parseable COMPLETE result summary with task results and frozen versions"
+                   },
+                   {
+                       "name":  "gate-status-structure",
+                       "status":  "PASS",
+                       "detail":  "Exactly one valid row exists for each G0 through G6"
+                   },
+                   {
+                       "name":  "g0-g5-status",
+                       "status":  "FAIL",
+                       "detail":  "Release requires PROJECT_STATUS G0 through G5 PASS; G6 is post-package"
+                   },
+                   {
+                       "name":  "literature-evidence",
+                       "status":  "FAIL",
+                       "detail":  "Release mode requires at least one evidence record"
+                   },
+                   {
+                       "name":  "verification-report",
+                       "status":  "FAIL",
+                       "detail":  "Release requires overall PASS, critical PASS, no FAIL/NOT_TESTED, and evidence plus limitations for conditional or not-applicable checks"
+                   },
+                   {
+                       "name":  "g2-readiness-files",
+                       "status":  "PASS",
+                       "detail":  "G2-B requires readiness, independent role reviews, protected invariants, defaults, decision register, budget and G2 approval sidecar"
+                   },
+                   {
+                       "name":  "g2-readiness-status-and-signoff",
+                       "status":  "FAIL",
+                       "detail":  "implementation-readiness.md must be READY_FOR_USER_REVIEW with independent implementer and verifier YES signoffs"
+                   },
+                   {
+                       "name":  "g2-independent-prefreeze-reviews",
+                       "status":  "FAIL",
+                       "detail":  "Implementer and verifier reviews need distinct identities, matching mode, READY verdicts, no formal-result use and no G4 claim"
+                   },
+                   {
+                       "name":  "g2-protected-invariants",
+                       "status":  "FAIL",
+                       "detail":  "Protected A-class invariants must be non-placeholder and structured"
+                   },
+                   {
+                       "name":  "g2-a-class-decisions",
+                       "status":  "FAIL",
+                       "detail":  "Decision register must contain no unresolved A-class scientific decision"
+                   },
+                   {
+                       "name":  "g2-tier-budget-and-fallback",
+                       "status":  "FAIL",
+                       "detail":  "Every formal task needs Tier 0/1 executable entries, budgets and failure actions; Tier 1 uses at most 40% of its window and Tier 2 reserves at least 30% with Tier 1 fallback"
+                   },
+                   {
+                       "name":  "g2-readiness-review-hashes",
+                       "status":  "FAIL",
+                       "detail":  "Readiness review must bind normalized SHA-256 values for the current model, preprocessing, invariants, defaults and complexity budget"
+                   },
+                   {
+                       "name":  "g2-user-approval-binding",
+                       "status":  "FAIL",
+                       "detail":  "Frozen G2 requires an APPROVED sidecar bound to the reviewed bundle, versions, readiness ID, timestamp and user quote"
+                   },
+                   {
+                       "name":  "task-stage-statuses",
+                       "status":  "FAIL",
+                       "detail":  "Every unique task requires G0-G5 and overall PASS"
+                   },
+                   {
+                       "name":  "verification-id-coverage",
+                       "status":  "FAIL",
+                       "detail":  "Verification report must contain each fixed and task-required ID exactly once"
+                   },
+                   {
+                       "name":  "raw-data-integrity",
+                       "status":  "FAIL",
+                       "detail":  "Raw file set, inventory, sizes and SHA-256 table must agree; no-data projects require explicit sentinel rows"
+                   },
+                   {
+                       "name":  "artifact-integrity",
+                       "status":  "FAIL",
+                       "detail":  "Each task needs a VERIFIED artifact with an existing nonempty file and matching SHA-256"
+                   },
+                   {
+                       "name":  "result-task-coverage",
+                       "status":  "FAIL",
+                       "detail":  "Result summary task IDs must exactly match task requirements"
+                   },
+                   {
+                       "name":  "literature-evidence-integrity",
+                       "status":  "FAIL",
+                       "detail":  "Evidence IDs and verified metadata must be unique and research handoff documents must be complete"
+                   },
+                   {
+                       "name":  "algorithm-evidence-readiness",
+                       "status":  "FAIL",
+                       "detail":  "coverage COV-TBD has unresolved evidence ID; final component COMP-TBD has fewer than three independent source groups; final component COMP-TBD has fewer than two readable full texts; final component COMP-TBD lacks COMPARATIVE_OR_LIMITATION; final component COMP-TBD lacks FOUNDATIONAL; final component COMP-TBD lacks TASK_APPLICATION; final component COMP-TBD lacks textbook/monograph check; request REQ-TBD is REQUESTED; request REQ-TBD lacks COMPARISON search; request REQ-TBD lacks LIMITATION search; request REQ-TBD lacks SUPPORT search"
+                   },
+                   {
+                       "name":  "claim-cross-references",
+                       "status":  "FAIL",
+                       "detail":  "Writing claims must match claim audit and resolve to verified artifacts, literature and verification IDs"
+                   },
+                   {
+                       "name":  "secret-file-names",
+                       "status":  "PASS",
+                       "detail":  "No common secret filenames were found"
+                   },
+                   {
+                       "name":  "python-syntax",
+                       "status":  "PASS",
+                       "detail":  "src/ and tests/ passed Python compilation"
+                   },
+                   {
+                       "name":  "workflow-contract-tests",
+                       "status":  "PASS",
+                       "detail":  "Workflow contract unit tests must pass"
+                   },
+                   {
+                       "name":  "documented-smoke-entry",
+                       "status":  "PASS",
+                       "detail":  "The documented src.main entry point must run successfully"
+                   }
+               ]
+}

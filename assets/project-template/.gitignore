@@ -1,0 +1,17 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+secrets.*
+outputs/logs/*.tmp
+releases/*.zip
+releases/*.sha256.txt

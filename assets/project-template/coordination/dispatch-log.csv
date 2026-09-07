@@ -1,0 +1,1 @@
+protocol_version,dispatch_id,gate,subgate,mode,from_role,to_role,role_generation,thread_id,status,request_file,request_sha256,input_bundle_sha256,exclusive_scope_id,allowed_write_scope,expected_output_paths,depends_on_dispatch_ids,user_authorization_id,created_at,acknowledged_at,completed_at,receipt_file,blocker_code,supersedes_dispatch_id

@@ -1,0 +1,2 @@
+request_id,round_id,plan_version,task_id,candidate_id,component_id,tier_role,selection_eligible,algorithm_name,variant,role,aliases_zh,aliases_en,keywords_zh,keywords_en,theory_questions,assumptions_to_verify,complexity_question,task_fit_question,comparison_targets,local_book_topics,priority,blocking,status
+REQ-TBD,R0,v0,TBD,CAND-TBD,COMP-TBD,TIER_0,YES,待填写,待填写,CANDIDATE,待填写,待填写,待填写,待填写,待填写,待填写,待填写,待填写,待填写,待填写,HIGH,YES,REQUESTED

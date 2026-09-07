@@ -1,0 +1,8 @@
+protocol_version,role,task_title,thread_id,host_id,generation,environment,status,current_dispatch_id,last_receipt_id,role_contract_path,role_contract_sha256,registered_at,last_seen_at,replacement_for,notes
+THREAD-PROTOCOL-v1,coordinator,TBD,TBD,TBD,0,LOCAL_SHARED_PROJECT,UNREGISTERED,NONE,NONE,AGENTS.md,TBD,TBD,TBD,NONE,总控任务
+THREAD-PROTOCOL-v1,literature_researcher,TBD,TBD,TBD,0,LOCAL_SHARED_PROJECT,UNREGISTERED,NONE,NONE,.codex/agents/literature-researcher.toml,TBD,TBD,TBD,NONE,文献长期任务
+THREAD-PROTOCOL-v1,model_architect,TBD,TBD,TBD,0,LOCAL_SHARED_PROJECT,UNREGISTERED,NONE,NONE,.codex/agents/model-architect.toml,TBD,TBD,TBD,NONE,建模长期任务
+THREAD-PROTOCOL-v1,model_implementer,TBD,TBD,TBD,0,LOCAL_SHARED_PROJECT,UNREGISTERED,NONE,NONE,.codex/agents/model-implementer.toml,TBD,TBD,TBD,NONE,实现长期任务
+THREAD-PROTOCOL-v1,model_verifier,TBD,TBD,TBD,0,LOCAL_SHARED_PROJECT,UNREGISTERED,NONE,NONE,.codex/agents/model-verifier.toml,TBD,TBD,TBD,NONE,验证长期任务
+THREAD-PROTOCOL-v1,paper_outline_writer,TBD,TBD,TBD,0,LOCAL_SHARED_PROJECT,UNREGISTERED,NONE,NONE,.codex/agents/paper-outline-writer.toml,TBD,TBD,TBD,NONE,论文提纲长期任务
+THREAD-PROTOCOL-v1,release_packager,TBD,TBD,TBD,0,LOCAL_SHARED_PROJECT,UNREGISTERED,NONE,NONE,.codex/agents/release-packager.toml,TBD,TBD,TBD,NONE,发布长期任务，仅用户明确命令后唤醒

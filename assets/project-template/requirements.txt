@@ -1,0 +1,2 @@
+# 按冻结方案填写并锁定实际使用的版本。
+# 常见候选依赖：numpy, pandas, scipy, matplotlib, scikit-learn, pytest

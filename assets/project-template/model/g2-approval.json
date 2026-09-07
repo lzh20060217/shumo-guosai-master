@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "status": "NOT_APPROVED",
+  "approval_id": "",
+  "approved_at": "",
+  "approved_by": "",
+  "approval_quote": "",
+  "readiness_id": "READINESS-v0-R0",
+  "readiness_bundle_sha256": "",
+  "plan_version": "v0",
+  "preprocessing_version": "v0"
+}

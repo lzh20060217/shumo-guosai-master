@@ -1,0 +1,2 @@
+decision_id,plan_version,preprocessing_version,task_id,decision_class,topic_group,topic,applicability,protected_invariant_id,selected_value,na_reason,rationale,source_refs,owner,resolution_status,requires_user_approval,equivalence_test_id,affects_rank,affects_objective,affects_prediction,affects_threshold,affects_model_selection,change_request_id,updated_at
+DEC-TBD,v0,v0,TBD,A,STUDY_TARGET,待填写,APPLICABLE,INV-TBD,待填写,,待填写,待填写,model_architect,OPEN,YES,,NO,NO,NO,NO,NO,,待填写

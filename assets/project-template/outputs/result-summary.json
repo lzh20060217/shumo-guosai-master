@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "project_status": "NOT_RUN",
+  "model_version": "v0",
+  "preprocessing_version": "v0",
+  "generated_at": null,
+  "runs": [],
+  "task_results": [],
+  "known_failures": [],
+  "notes": "由 model_implementer 写入实际运行、逐任务主要结果和 artifact_id；不得手工编造数值。"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Math Modeling Competition"
+  short_description: "Research, model, code, verify, and hand off"
+  default_prompt: "Use $math-modeling-competition to solve this competition problem through gated research, modeling, implementation, verification, and manual handoff."

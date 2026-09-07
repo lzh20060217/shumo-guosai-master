@@ -1,0 +1,2 @@
+claim_id,task_id,paper_section,claim_text,literature_evidence_ids,artifact_ids,verification_ids,status,allowed_wording,remaining_gap
+TBD,待填写,ABSTRACT/PROBLEM/ASSUMPTIONS/SYMBOLS/DATA/BASELINE/FINAL_MODEL/SOLUTION/RESULTS/VERIFICATION/SENSITIVITY_ROBUSTNESS_ABLATION/LIMITATIONS/CONCLUSION,待填写,待填写,待填写,待填写,NOT_STARTED,待验证后填写,待填写

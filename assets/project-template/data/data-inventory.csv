@@ -1,0 +1,2 @@
+data_id,path,source,license_or_permission,format,size_bytes,sha256,encoding,rows,columns,time_or_space_range,fields_and_units,missingness,duplicates,outliers,notes,status
+TBD,待填写,待填写,待确认,待填写,待填写,待填写,待填写,待填写,待填写,待填写,待填写,待检查,待检查,待检查,无官方数据时将 data_id 写为 NO_OFFICIAL_DATA,NOT_STARTED

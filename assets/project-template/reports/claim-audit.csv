@@ -1,0 +1,2 @@
+claim_id,task_id,proposed_claim,artifact_ids,literature_evidence_ids,verification_ids,status,allowed_wording,prohibited_wording,notes
+TBD,待填写,待填写,待填写,待填写,待填写,NOT_TESTED,待验证后填写,不得把未验证结果写成确定性结论,

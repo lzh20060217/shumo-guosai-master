@@ -1,0 +1,2 @@
+artifact_id,type,task_id,run_id,model_version,path,source_data,generator,command,parameters,random_seed,unit,caption,candidate_claim,paper_section,verification_ids,verification_status,sha256,notes
+TBD,待填写,待填写,待填写,v0,待填写,待填写,待填写,待填写,待填写,待填写,待填写,待填写,待填写,待填写,待填写,PENDING,待填写,正式数值表格和图均需单独登记

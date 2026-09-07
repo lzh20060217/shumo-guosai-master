@@ -1,0 +1,14 @@
+scope_id,path_pattern,owner_role,merge_role,concurrent_policy,notes
+SCOPE-CONTROL,PROJECT_STATUS.md;HANDOFF.md;coordination/CONTROL-BOARD.md;coordination/thread-registry.csv;coordination/dispatch-log.csv;coordination/dispatches/**;coordination/sync-ledger.csv;coordination/user-authority-log.csv,coordinator,coordinator,EXCLUSIVE,专业角色只能通过回执建议更新
+SCOPE-G0,competition/**;problem/problem.md;data/data-inventory.csv;data/raw-hashes.csv,coordinator,coordinator,EXCLUSIVE,G0 事实与数据登记由总控合并
+SCOPE-TASK-TRACE,problem/task-requirements.csv,coordinator,coordinator,EXCLUSIVE,角色在回执中提出字段更新
+SCOPE-LITERATURE,research/**;coordination/receipts/literature_researcher/**,literature_researcher,coordinator,EXCLUSIVE,架构师对冲突解决的建议通过回执返回
+SCOPE-ARCHITECT,model/model-plan.md;model/algorithm-evidence-request.csv;model/protected-invariants.md;model/implementation-defaults.md;model/decision-register.csv;model/complexity-budget.csv;model/implementation-readiness.md;model/change-request.md;data/preprocessing-plan.md;coordination/receipts/model_architect/**,model_architect,coordinator,EXCLUSIVE,不得改写两个原始 readiness review
+SCOPE-IMP-READINESS,model/readiness/implementer-review.md;tests/contract/implementer/**;coordination/receipts/model_implementer/prefreeze/**,model_implementer,coordinator,EXCLUSIVE,仅 PREFREEZE_READINESS
+SCOPE-VER-READINESS,model/readiness/verifier-review.md;tests/contract/verifier/**;coordination/receipts/model_verifier/prefreeze/**,model_verifier,coordinator,EXCLUSIVE,仅 PREFREEZE_READINESS
+SCOPE-G2-APPROVAL,model/g2-approval.json;model/PLAN_STATUS.txt;data/PREPROCESSING_STATUS.txt,coordinator,coordinator,EXCLUSIVE,只在用户批准精确审查包后同步更新
+SCOPE-IMPLEMENTATION,src/**;experiments/implementation/**;tests/implementation/**;data/processed/**;outputs/result-summary.json;outputs/tables/**;outputs/figures/**;outputs/artifact-manifest.csv;reports/bug-fix-log.csv;coordination/receipts/model_implementer/g3/**,model_implementer,coordinator,EXCLUSIVE,与 readiness 和独立验证目录不重叠
+SCOPE-VERIFICATION,tests/verification/**;experiments/verification/**;outputs/verification/**;reports/verification-report.md;reports/claim-audit.csv;coordination/receipts/model_verifier/g4/**,model_verifier,coordinator,EXCLUSIVE,验证者不直接改实现者结果和 manifest
+SCOPE-WRITING,writing/**;coordination/receipts/paper_outline_writer/**,paper_outline_writer,coordinator,EXCLUSIVE,只使用已验证证据
+SCOPE-LATE-AUDIT,reports/late-stage-ai-self-check.csv,coordinator,coordinator,EXCLUSIVE,G5.5由总控汇总自动核对和队员人工复核证据
+SCOPE-RELEASE,releases/**;coordination/receipts/release_packager/**,release_packager,coordinator,EXCLUSIVE,只在用户当前明确命令后

@@ -1,0 +1,100 @@
+{
+    "generated_at":  "2026-08-03T20:21:24.7119697+08:00",
+    "mode":  "Snapshot",
+    "project":  "math-modeling-competition-template",
+    "plan_status":  "DRAFT",
+    "fail_count":  0,
+    "warning_count":  4,
+    "checks":  [
+                   {
+                       "name":  "required:AGENTS.md",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:PROJECT_STATUS.md",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:HANDOFF.md",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:.codex\\agents",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:.agents\\skills\\math-modeling-competition\\SKILL.md",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:problem",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:data\\raw",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:research\\evidence-matrix.csv",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:model\\model-plan.md",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:model\\PLAN_STATUS.txt",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:src",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:tests",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "required:reports\\verification-report.md",
+                       "status":  "PASS",
+                       "detail":  "Path exists"
+                   },
+                   {
+                       "name":  "plan-status",
+                       "status":  "WARN",
+                       "detail":  "Snapshot contains a non-frozen plan; current status is DRAFT"
+                   },
+                   {
+                       "name":  "literature-evidence",
+                       "status":  "WARN",
+                       "detail":  "Evidence matrix currently contains only its header"
+                   },
+                   {
+                       "name":  "verification-report",
+                       "status":  "WARN",
+                       "detail":  "Independent verification is not complete"
+                   },
+                   {
+                       "name":  "secret-file-names",
+                       "status":  "PASS",
+                       "detail":  "No common secret filenames were found"
+                   },
+                   {
+                       "name":  "python-syntax",
+                       "status":  "WARN",
+                       "detail":  "python command was not found; compilation was skipped"
+                   }
+               ]
+}
