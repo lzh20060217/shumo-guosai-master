@@ -20,6 +20,7 @@ description: 面向全国大学生数学建模竞赛的个人总控技能。用�
 - `SKILL_ROOT`：本文件所在目录，只读。
 - `PROJECT_ROOT`：当前比赛项目目录；所有题目、数据、代码、结果和论文产物写入这里。
 - `CUMCM_ROOT`：通常为 `SKILL_ROOT/../cumcm-step-review`；存在时按需复用其中工具和规范。
+- `FIGURE_SKILL_ROOT`：可选的 `SKILL_ROOT/../scibox-figure`；存在时用于从真实结果表生成带溯源记录的数据图。
 - `TEMPLATE_ROOT`：`SKILL_ROOT/assets/project-template`；只作为新项目种子，不在原位开展比赛。
 
 发生冲突时依次服从：用户当前明确要求 > 当届官方规则和题目 > 用户批准的冻结方案 > 实际运行与验证证据 > 本技能 > 往届经验或范文。不能用往届规则替代当届规则。
@@ -75,6 +76,7 @@ description: 面向全国大学生数学建模竞赛的个人总控技能。用�
 - 正式入口放 `src/` 或 `experiments/`；Notebook 不能是唯一复现入口。
 - 每个正式数字、表、图登记到 artifact manifest，并保留生成命令与源数据。
 - 所有数据图由 Python/MATLAB/R 代码生成，不使用图像生成模型伪造数据图。
+- 若使用 `scibox-figure`，先读取其 `SKILL.md`，正式图只走真实 CSV/TSV 数据入口并保留 provenance；内置模拟模板只能作版式草图。
 - 图内一般不放标题；图题在正文图下。图后立即解释“看到了什么、意味着什么、支持哪一结论”。
 - 输出可读图和图后数据；流程图保留可编辑 `.drawio` 源文件。
 - 论文公式、表格、图与代码结果必须逐项一致。
@@ -97,6 +99,7 @@ AI 可以帮助检索、解释、编程、检查和语言修改，但不得伪�
 - 新建比赛项目：运行 `scripts/init_project.py <新目录>`，然后读取 `references/project-layout.md`。
 - G0–G6、时间预算、轻量/完整模式：`references/unified-workflow.md`。
 - 模型选择、代码、跨题链、复现和图表：`references/modeling-and-coding.md`。
+- 从结果表生成统计图：若 `FIGURE_SKILL_ROOT` 存在，读取其 `SKILL.md`；流程图仍使用 `CUMCM_ROOT/tools/drawio/scibox-diagram`。
 - 写作、摘要、格式和 AI 合规：`references/paper-and-ai.md`。
 - 来源、版本、工具依赖与迁移：`references/source-map.md`。
 - 阶段自检：`references/competition-checklist.md`。
